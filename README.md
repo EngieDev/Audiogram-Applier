@@ -9,21 +9,23 @@ audiogram experiences their world
 
 # Install Requirements
 - python 3.7 or higher
-        - https://www.python.org/downloads/
+  - https://www.python.org/downloads/
+  - Or use the inbuilt package manager, i.e
+    - ```sudo apt install python3```
 - scipy and matplotlib 
     - Run below command in cmd prompt/powershell/terminal
         - ```python3 -m pip install scipy matplotlib```
 - ffmpeg
-    - download from https://ffbinaries.com/downloads and 
-      place into same folder as AA.py, or on your $PATH.
-    - or via your package manager, i.e
+    - Download from https://ffbinaries.com/downloads and 
+      place into same folder as AA.py or on the $PATH.
+    - Or via inbuilt package manager, i.e
         - ```sudo apt install ffmpeg```
 
 # Usage:
 ```bash
 python AA.py -i "path/to/media/file"
              -o "path/to/output/folder"
-             -a "path/to/audiogram file"
+             -a "path/to/audiogram/file"
              [--anim] 
 ```
 
