@@ -20,10 +20,12 @@ audiogram experiences their world
         - ```sudo apt install ffmpeg```
 
 # Usage:
-```python AA.py -i [path/to/media/file] 
+```bash
+python AA.py -i [path/to/media/file] 
                 -o [path/to/output/folder] 
                 -a [path/to/audiogram file] 
-                [--anim]```
+                [--anim] 
+```
 
 - Paths can be relative or absolute
 - Output folder will be created if it doesn't exist
@@ -43,7 +45,7 @@ the audio signal by the Python script.
 
 The format of the file is:
 
-```
+``` 
 [
     # Left channel parameters
     [
