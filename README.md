@@ -21,10 +21,10 @@ audiogram experiences their world
 
 # Usage:
 ```bash
-python AA.py -i [path/to/media/file] 
-                -o [path/to/output/folder] 
-                -a [path/to/audiogram file] 
-                [--anim] 
+python AA.py -i "path/to/media/file"
+             -o "path/to/output/folder"
+             -a "path/to/audiogram file"
+             [--anim] 
 ```
 
 - Paths can be relative or absolute
